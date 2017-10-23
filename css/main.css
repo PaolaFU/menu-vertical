@@ -5,11 +5,9 @@ body{
 nav{
   width:  200px;
 }
-
-
 ul{
    /*La propiedad outline no modifica nada  solo dibuja un contormo alrededor de la etiqueta*/
-    /*outline: 1px solid yellow;*/
+   /*outline: 1px solid yellow;*/
   /*Al poner la propiedad none, eliminara las viñetas  q estas predefinidas*/
     list-style: none;
     /*Poniendo cero a margin y padding se elimina xq aveces los nevegadores  lo tienen por defecto definido y por eso aparece el texto  corrido*/
@@ -20,7 +18,7 @@ ul{
     line-height: 30px;
 
 }
- li{
+li{
    /*outline: 1px solid red;*/
    background: #f5f5f0;
  }
@@ -52,18 +50,18 @@ a:active{
   color: #fff;
 }
  /*Para q solo el primer item salga amarillo se usa selectores decendientes con seudo clase: para el primer hijo de ul*/
- ul li:first-child{
+ul li:first-child{
    background: #f9a91a;
  }
- /*  Solo el primero item tenga  texto tenga letras blancas*/
- ul li:first-child a{
+ /* Solo el primero item tenga  texto tenga letras blancas*/
+ul li:first-child a{
    color: #fff;
  }
  /*para cuando se pasa el mouse en el primer item, la letras  se vuelvan color negro*/
- ul li:first-child a:hover{
+ul li:first-child a:hover{
    color: #000;
  }
  /*cambiara letras  a color blanco cuando se hace click cuando se hace click en el primer item*/
- ul li:first-child a:active{
+ul li:first-child a:active{
    color: #fff;
  }
